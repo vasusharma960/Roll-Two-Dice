@@ -1,0 +1,43 @@
+body{
+  background: linear-gradient(135deg, red , yellow);
+}
+
+.diceimg{
+background-image: url("diceimg.png");
+background-size: contain;
+position: absolute;
+height: 20%;
+width: 26.5%;
+margin-top: 20%;
+}
+
+.container{
+  position: absolute;
+  height:50%;
+  width:50%;
+  margin-left: 25%;
+  text-align: center;
+  /* font-size: 4rem; */
+}
+
+h1{
+  font-size: 3rem;
+}
+
+label{
+  font-size: 2rem;
+}
+
+input{
+  font-size: 2rem;
+  width: 15%;
+  border-radius: 20px;
+}
+
+.btn{
+  font-size: 2rem;
+}
+
+#result{
+  font-size: 3rem;
+}
